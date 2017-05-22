@@ -1,0 +1,30 @@
+{
+  "name": "hof-util-countries",
+  "version": "0.0.0",
+  "description": "A utility to parse homeoffice-countries into a usable format for hof select elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "eslint .",
+    "test:unit": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UKHomeOfficeForms/hof-util-countries.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UKHomeOfficeForms/hof-util-countries/issues"
+  },
+  "homepage": "https://github.com/UKHomeOfficeForms/hof-util-countries#readme",
+  "dependencies": {
+    "homeoffice-countries": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-homeoffice": "^2.1.2",
+    "mocha": "^3.4.1"
+  }
+}
